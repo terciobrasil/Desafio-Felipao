@@ -11,9 +11,18 @@
     <button onclick="window.print()">Print this page</button>
 
     <h2 id='demo3'></h2>
+    <p>Exibe o resultado da soma x=7, y=x+9</p>
+    <p id="demo4"></p>
     <script>
         document.getElementById('demo3').innerHTML = "Texto inserido com innerHtml no meio do codigo"
+        var x,y;
+        x  = 7;
+        y = x + 9;
+        //document.getElementById('demo4').innerHTML = y
+       
     </script>
+    <button type="button" onclick="document.getElementById('demo4').innerHTML = 'Resultado '+y">Exibir</button>
+       
 </body>
 
 
