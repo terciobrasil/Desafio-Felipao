@@ -1,5 +1,5 @@
-var NomePersonagem = "Cisne Negro"
-var XP = 10010
+var NomePersonagem = "Pantera Negra"
+var XP = 2500
 
 if(XP < 1000){
         nivel = "ferro"
